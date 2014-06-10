@@ -20,11 +20,7 @@ public class API {
 			msg.append(args[i]);
 		}
 		String msgchecked = msg.toString();
-		if (msgchecked == null) {
-			player.sendMessage(API.errorMessage("Message cannot be empty!"));
-		} else {
-			API.privateMessage(player, recipient, msgchecked);
-		}
+		API.privateMessage(player, recipient, msgchecked);
 	}
 	
 	public static void privateMessage(Player sender, Player recipient, String message) {
