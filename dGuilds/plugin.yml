@@ -1,0 +1,8 @@
+main: me.duck.dGuilds.dGuilds
+name: dGuilds
+version: 0.1.0
+commands:
+    dmessage:
+        description: Sends a private message to target player.
+        usage: /<command> [target] [message]
+        aliases: dm

@@ -1,7 +1,0 @@
-main: me.duck.dPlugin.dHats
-name: dHats
-version: 0.1.0
-commands:
-    sethat:
-        description: Sets your hat.
-        usage: /<command> [item / block id]
