@@ -5,6 +5,12 @@ commands:
     dmessage:
         description: Sends a private message to target player.
         usage: /<command> [target] [message]
-    dm:
+    dpm:
         description: Alias of dmessage.
         usage: /<command> [target] [message]
+    dcreate:
+        description: Creates a guild.
+        usage: /<command> [guildname]
+    ddelete:
+        description: Deletes a guild.
+        usage: /<command> [guildname]
